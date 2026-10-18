@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de ElChistema-Backups para respaldos cifrados en Google Drive.">
+  <title>Política de privacidad | ElChistema-Backups</title>
+  <style>
+    :root { color-scheme: light; --ink:#14253b; --muted:#4b6279; --blue:#1768a8; --border:#dce6ef; --bg:#f5f9fc; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+    main { max-width:850px; margin:6vh auto 36px; padding:0 22px; }
+    article { background:white; border:1px solid var(--border); border-radius:20px; padding:clamp(25px,5vw,52px); box-shadow:0 12px 32px #1937530a; }
+    h1 { font-size:clamp(2rem,4vw,2.8rem); line-height:1.17; margin:16px 0 8px; letter-spacing:-.03em; }
+    h2 { font-size:1.16rem; margin-top:28px; }
+    p,li { color:var(--muted); }
+    ul { padding-left:21px; }
+    a { color:var(--blue); text-underline-offset:3px; }
+    .muted { color:#62778a; font-size:.91rem; }
+    footer { text-align:center; color:#66798b; padding:16px; font-size:.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <a href="/">← Volver al inicio</a>
+      <h1>Política de privacidad</h1>
+      <p class="muted">ElChistema-Backups · Actualizada el 17 de octubre de 2026</p>
+      <p>Esta política describe el tratamiento de información mediante <strong>ElChistema-Backups</strong>, una integración privada entre un servidor administrado por el titular y Google Drive, utilizando la herramienta rclone.</p>
+
+      <h2>Finalidad del acceso</h2>
+      <p>La aplicación accede a la cuenta de Google Drive autorizada exclusivamente para crear, consultar, actualizar y administrar archivos y carpetas de copias de seguridad del sistema El chistema. Se utiliza el permiso <code>https://www.googleapis.com/auth/drive.file</code>, que limita el acceso a los archivos creados o autorizados para la aplicación.</p>
+
+      <h2>Información tratada</h2>
+      <ul>
+        <li>Copias de seguridad generadas por el sistema de gestión, cifradas antes de enviarse a Drive.</li>
+        <li>Metadatos necesarios para las operaciones de respaldo, como nombres, tamaños e identificadores de archivos.</li>
+        <li>Credenciales OAuth utilizadas por rclone para mantener la conexión autorizada, almacenadas en la configuración del servidor bajo control del titular.</li>
+      </ul>
+
+      <h2>Almacenamiento y destinatarios</h2>
+      <p>Los archivos de respaldo se almacenan en la cuenta de Google Drive autorizada por su titular. La integración no vende información ni la utiliza para publicidad. No se comparte información con destinatarios ajenos al servicio de almacenamiento y a los administradores autorizados del sistema. Google procesa la información alojada en Drive conforme a sus propios términos y políticas.</p>
+      <p>Esta página informativa no pide contraseñas, no permite iniciar sesión y no utiliza herramientas propias de análisis o seguimiento de visitantes.</p>
+
+      <h2>Conservación y eliminación</h2>
+      <p>El titular administra la conservación y eliminación de las copias desde su Google Drive. También puede revocar el acceso de la aplicación en la sección de conexiones de terceros de su cuenta de Google. Revocar el acceso impide nuevas operaciones autorizadas, pero no elimina automáticamente los respaldos ya almacenados.</p>
+
+      <h2>Seguridad</h2>
+      <p>Las copias de seguridad se cifran antes de subirse a Google Drive. El acceso OAuth se configura en un servidor privado administrado por el titular. El titular es responsable de custodiar las claves de descifrado y el acceso administrativo.</p>
+
+      <h2>Contacto</h2>
+      <p>Para consultas sobre esta integración, visita el <a href="https://github.com/elmotopap1">perfil del responsable en GitHub</a> o utiliza el correo de asistencia indicado en la pantalla de consentimiento OAuth.</p>
+    </article>
+    <footer><a href="/">ElChistema-Backups</a></footer>
+  </main>
+</body>
+</html>

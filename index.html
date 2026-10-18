@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Información sobre ElChistema-Backups, integración privada de respaldos cifrados con Google Drive.">
+  <title>ElChistema-Backups | Respaldo privado</title>
+  <style>
+    :root { color-scheme: light; --ink:#14253b; --muted:#4b6279; --blue:#1768a8; --border:#dce6ef; --bg:#f5f9fc; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+    main { max-width:800px; margin:9vh auto 40px; padding:0 22px; }
+    .panel { background:#fff; border:1px solid var(--border); border-radius:20px; padding:clamp(26px,5vw,54px); box-shadow:0 12px 32px #1937530a; }
+    .eyebrow { display:inline-block; padding:5px 12px; background:#eaf4fc; border-radius:99px; font-weight:650; color:#155b94; font-size:.82rem; }
+    h1 { font-size:clamp(2rem,5vw,3.1rem); line-height:1.15; letter-spacing:-.04em; margin:23px 0 14px; }
+    h2 { font-size:1.2rem; margin-top:30px; }
+    p { color:var(--muted); }
+    ul { padding-left:21px; color:var(--muted); }
+    a { color:var(--blue); text-underline-offset:3px; }
+    footer { text-align:center; color:#66798b; padding:18px; font-size:.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <span class="eyebrow">Uso privado · Copias de seguridad</span>
+      <h1>ElChistema-Backups</h1>
+      <p><strong>ElChistema-Backups</strong> es una integración de uso privado para respaldar información del sistema de gestión de taller El chistema mediante <strong>rclone</strong> y Google Drive.</p>
+      <h2>¿Para qué se utiliza?</h2>
+      <ul>
+        <li>Enviar copias de seguridad cifradas de los datos del sistema a una carpeta de Google Drive administrada por la aplicación.</li>
+        <li>Conservar copias externas para facilitar la recuperación ante incidentes del servidor.</li>
+        <li>Permitir al titular de la cuenta gestionar y revocar el acceso desde su cuenta de Google.</li>
+      </ul>
+      <p>La integración solicita el permiso <code>drive.file</code>, destinado a los archivos creados o autorizados específicamente para la aplicación. No es un servicio abierto al público y no permite registrar usuarios externos.</p>
+      <p><strong>Privacidad:</strong> consulta nuestra <a href="/privacy.html">Política de privacidad</a> para conocer el uso de los datos y las credenciales.</p>
+      <p><strong>Contacto:</strong> <a href="https://github.com/elmotopap1">perfil del responsable en GitHub</a>.</p>
+    </section>
+    <footer>ElChistema-Backups · Integración privada de respaldo</footer>
+  </main>
+</body>
+</html>
